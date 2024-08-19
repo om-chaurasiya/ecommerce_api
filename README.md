@@ -17,4 +17,15 @@ USER:
      cart_item: items that get entered into cart will contain contain cartid 
                 and user id, and it will have unique it too.   
 
+
+   for admin : admin/
+   for Register: register/
+   Login       : login/
+   profile view :profile/
+   cart     : cart/
+   add to cart : cart/add/
+   remove from cart: cart/remove/<int:pk>/
+   to view product : products/
+   to view particular product: products/<int:pk>/
+   
    
